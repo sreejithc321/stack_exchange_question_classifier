@@ -1,7 +1,7 @@
 '''
 Stack Exchange Question Classifier
 Given a question and an excerpt identify which topic it belongs to.
-Ref : https://www.hackerrank.com/challenges/stack-exchange-question-classifier
+
 '''
 
 from sklearn.preprocessing import LabelEncoder
@@ -12,7 +12,7 @@ import json
 
 def read_data(train_data):
     '''
-    Read training data and return as list 
+    Read data from file and return as list 
     '''
     data = []
     with open(train_data) as f:
