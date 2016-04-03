@@ -1,7 +1,7 @@
 '''
 Stack Exchange Question Classifier
 Given a question and an excerpt identify which topic it belongs to.
-
+Accuracy :  0.887307078233
 '''
 
 from sklearn.preprocessing import LabelEncoder
